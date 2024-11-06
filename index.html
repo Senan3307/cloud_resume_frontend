@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Resume</title>
+    <title>Senan Otsuka - Resume</title>
     <style>
         /* General styles */
         body {
@@ -53,16 +53,13 @@
 <body>
 
     <header>
-        <h1>Your Name</h1>
+        <h1>Senan Otsuka</h1>
         <ul class="contact-info">
             <li>email@example.com</li>
             <li>(123) 456-7890</li>
             <li>City, State</li>
         </ul>
     </header>
-
-    <p>Visitor #: <span id="visitor-counter">0</span></p>
-
     <main>
         <section>
             <h2>Summary</h2>
@@ -100,13 +97,18 @@
                 <li>Skill 4</li>
             </ul>
         </section>
+
+        <section>
+            Visitor #: <span id="visitor-counter"></span>
+        </section>
     </main>
 
-    <!-- Load script at the end of body -->
-    <script src="js/visitor-counter.js"></script>
+    <!-- Load visitor-counter.js and run visitorCounter after the script is loaded -->
+    <script src="js/visitor-counter.js" defer></script>
     <script>
-        // Call the visitorCounter function after the script is loaded
-        visitorCounter();
+        window.onload = function() {
+            visitorCounter();
+        };
     </script>
 
 </body>
