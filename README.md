@@ -1,17 +1,16 @@
-## Purpose:
+# Purpose:
 The frontend repository’s primary goal is to present your resume as a single-page web application, often enhanced with additional features like:
 
 - A clean, modern design that highlights your resume content.
 - Integration with a backend to store data like visitor counts or form submissions (using cloud services such as AWS Lambda, API Gateway, etc.).
 - A personalized and interactive experience for visitors.
 
-## Key Files and Directories:
-# index.html:
+# Key Files and Directories:
+
+## index.html:
 
 - The main HTML file that structures the content of your resume page. It usually includes sections like personal information, skills, projects, and contact info.
-styles.css:
 
-The CSS file for styling the webpage. It controls the layout, color scheme, fonts, and overall appearance of the resume.
 app.js:
 
 The JavaScript file that handles the interactive features of the site. This could include fetching data from a cloud backend (like a visitor count) or form handling (e.g., sending contact information to an API).
