@@ -23,6 +23,10 @@ The frontend repository’s primary goal is to present the resume as a single-pa
 
 - A markdown file that explains the purpose of the repository, installation instructions, and how to run or deploy the application.
 
+## deploy-frontend.yml
+
+- It defines steps to automatically deploy your frontend application (e.g., HTML, CSS, JavaScript) to a cloud service (like AWS S3, Netlify, or Vercel) whenever you push new changes to the repository.
+
 ## .gitignore 
 
 - The .gitignore file tells Git which files or directories to ignore when tracking changes in a repository. This is important for keeping unnecessary or sensitive files out of version control.
