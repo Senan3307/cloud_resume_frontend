@@ -23,3 +23,7 @@ The frontend repository’s primary goal is to present the resume as a single-pa
 
 - A markdown file that explains the purpose of the repository, installation instructions, and how to run or deploy the application.
 
+## .gitignore 
+
+- The .gitignore file tells Git which files or directories to ignore when tracking changes in a repository. This is important for keeping unnecessary or sensitive files out of version control.
+
